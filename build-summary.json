@@ -1,0 +1,21 @@
+{
+  "inputJsonFiles": 152652,
+  "annualDocuments": 47430,
+  "semiAnnualDocuments": 11171,
+  "quarterlyDocuments": 94051,
+  "generatedCompanies": 5178,
+  "omittedCompaniesWithoutStatements": 0,
+  "statementSeries": 65469,
+  "chartPeriods": 554776,
+  "duplicatePeriods": 325021,
+  "restatedDuplicatePeriods": 28267,
+  "generatedHtmlPages": 5180,
+  "generatedDataFiles": 5179,
+  "generatedDataBytes": 305315193,
+  "generatedOgpImages": 5179,
+  "generatedOgpBytes": 55831419,
+  "generatedSiteFiles": 15543,
+  "generatedSiteBytes": 435752727,
+  "socialMetadataEnabled": true,
+  "buildElapsedSeconds": 438.473
+}
