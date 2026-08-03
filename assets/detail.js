@@ -53,7 +53,7 @@
   const MIN_ZOOM = 0.5;
   const DEFAULT_MAX_ZOOM = 4;
   const ZOOM_STEP = 0.25;
-  const WHEEL_ZOOM_THRESHOLD = 120;
+  const WHEEL_ZOOM_THRESHOLD = 40;
   const payloadUrl = panel.dataset.payloadUrl;
   const viewCache = new Map();
   let requestToken = 0;
