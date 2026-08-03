@@ -230,6 +230,7 @@ h1, h2, h3, h4, h5, p, dl, dd { margin-top: 0; }
   .summary-metric { padding: 10px 4px 0; }
   .summary-metric:first-child { border-left: 0; }
   .metric-value { overflow: visible; font-size: .74rem; text-overflow: clip; }
+  .company-row .metric-value { overflow: hidden; text-overflow: ellipsis; }
   .summary-chart { width: 100%; }
   .summary-chart .statement-chart { max-height: 102px; }
   .section-heading-row { display: block; }
@@ -258,8 +259,8 @@ h1, h2, h3, h4, h5, p, dl, dd { margin-top: 0; }
 }
 
 @media (max-width: 360px) {
-  .company-summary { grid-template-columns: 1fr; }
-  .summary-metric { border-top: 1px solid var(--line); border-left: 0; }
-  .summary-metric:first-child { border-top: 0; }
+  .detail-summary { grid-template-columns: 1fr; }
+  .detail-summary .summary-metric { border-top: 1px solid var(--line); border-left: 0; }
+  .detail-summary .summary-metric:first-child { border-top: 0; }
   .detail-summary .metric-value { font-size: .9rem; }
 }
